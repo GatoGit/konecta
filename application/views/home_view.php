@@ -262,5 +262,6 @@ if (isset($this->session->userdata['login'])) {
  
 <script src="<?php echo base_url('assets/js/vendor.min.js')?>"></script>
 <script src="<?php echo base_url('assets/libs/bootstrap-datepicker/bootstrap-datepicker.min.js')?>"></script>
+	 <!-- archivo js que esta en la carpeta assets -->       
 <script src="<?php echo base_url('assets/js/home.js')?>"></script>
     </html>
