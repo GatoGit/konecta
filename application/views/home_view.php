@@ -257,40 +257,7 @@ if (isset($this->session->userdata['login'])) {
                                      
                                      
                                      
-                                     
-                                     
-                                    
-                                    <div class="modal fade get_tiempo" id="get_tiempo" tabindex="-1" role="dialog" aria-labelledby="titulotiempoModal" aria-hidden="true">
-                                        <div class="modal-dialog modal-md">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h4 class="modal-title" id="titulotiempoModal">Lista de horas trabajadas</h4>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                                </div>
-                                                <div class="modal-body">
-                                                       <div class="table-responsive">
-                                                        <table class="table mb-0" id="tabla_actividades">
-                                                            <thead class="thead-light">
-                                                            <tr>
-                                                                <th>#</th>
-                                                                <th>Fecha</th>
-                                                                <th>Cantidad Horas</th>
-                                                               
-                                                                	
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody id="contenido_tiempo">
-                                                            
-                                                            </tbody>
-                                                        </table>
-                                                    </div> 
-                        
-                                                </div> 
-                                            </div> <!-- end col -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            
     </body>
  
 <script src="<?php echo base_url('assets/js/vendor.min.js')?>"></script>
