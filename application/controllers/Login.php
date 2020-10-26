@@ -65,7 +65,8 @@ class Login extends CI_Controller {
 	            'apellido' => $result['apellido'],
 	            'correo' => $result['correo'],
 	            'count_productos' => $count['count_productos'],
-	            'count_ventas' => $count['count_ventas']
+	            'count_ventas' => $count['count_ventas'],
+		    'count_facturado' => $count['count_facturado']
 	            
 	        );
 	        $this->session->set_userdata('login' , $sess_array);
